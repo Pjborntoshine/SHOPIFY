@@ -1,0 +1,177 @@
+
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #2a2a2a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e44d26; /* Orange color on hover */
+}
+
+/* Style the main content */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style the horizontal chocolate list */
+.chocolate-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.chocolate-item {
+    flex: 0 0 calc(33.333% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.chocolate-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.chocolate-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.chocolate-item h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 20px;
+    color: #e44d26; /* Red color for price */
+    margin: 5px 0;
+}
+
+.select-button {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.select-button:hover {
+    background-color: #ff6e40; /* Lighter shade of red on hover */
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2a2a2a;
+    color: #fff;
+    border-top: 2px solid #e44d26;
+}
+#custom-notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 9999;
+    display: none;
+}
+
+.notification-content {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#custom-pack {
+    background-color: #f5f5f5; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+/* Style the section title */
+#custom-pack h2 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+/* Style the chocolate selection options */
+#chocolate-selection {
+    margin: 20px 0; 
+}
+
+/* Style the total price text */
+#custom-pack-total p {
+    font-size: 18px; 
+}
+
+/* Style the total price value */
+#total-price {
+    font-weight: bold; 
+    color: #e91e63; 
+}
+
+
